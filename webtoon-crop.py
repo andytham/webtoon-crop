@@ -30,11 +30,10 @@ for line in img:
             # print("solid")
     if isSolidLine == False:
         newImg.append(line.tolist())
-        break
-
-# createImg = Image.fromarray(newImg)
+createImg = Image.fromarray(np.uint8(np.array(newImg)))
+createImg.save('./images/test.jpg')
 # Image.show(createImg)
-print(np.array(newImg))
+# print(np.array(newImg))
 # print(newImg)
 #delete white/black space
 
