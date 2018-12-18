@@ -2,7 +2,7 @@ import os
 from PIL import Image
 import numpy as np
 
-imgOpen = Image.open('images/re4.jpg')# import image
+imgOpen = Image.open('images/test2.png')# import image
 img = np.array(imgOpen) #convert to array
 
 # layout
